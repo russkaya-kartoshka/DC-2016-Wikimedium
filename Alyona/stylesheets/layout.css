@@ -15,11 +15,18 @@ a:visited {
   color: inherit;
 }
 
-body.posts > .menubar {
+body.posts {
+  background-color: #FAFAFA;
+}
+
+body.posts .menubar,
+body.landing .menubar {
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
   width: 100%;
   min-width: 768px;
-  padding: 30px;
   background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }
