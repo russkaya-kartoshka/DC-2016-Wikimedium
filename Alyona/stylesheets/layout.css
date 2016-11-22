@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100%;
   min-width: 768px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
