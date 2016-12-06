@@ -4,8 +4,11 @@
 }
 
 .galleryRail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  transition: all .3s ease;
+  -webkit-transition: all 1s ease;
+  transition: all .1s ease;
 }
 
 .galleryRail img {
@@ -29,7 +32,11 @@
 
 .galleryNav {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -41,6 +48,8 @@
   width: 20px;
   height: 20px;
   margin: 30px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   cursor: pointer;
   z-index: 1;
 }
@@ -68,9 +77,11 @@
 }
 
 #prev {
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
 #next {
+  -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
